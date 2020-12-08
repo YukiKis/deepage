@@ -34,3 +34,8 @@ time2 = time.time()
 np.tile(a, (1, 10000)) * np.tile(b, (10000, 1))
 time2 = time.time() - time2
 print(time1, time2)
+
+c = np.random.rand(10)
+b = np.array([0, 1, 0, 2, 1])
+b = np.tile(b, 2)
+print(c * b)
