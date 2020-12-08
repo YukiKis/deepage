@@ -27,3 +27,16 @@ print(df.iloc[:, 3])
 
 #print(df.at[["Fukuoka", "Narano"], "D"])
 print(df.loc["Nara", "A"])
+
+print(df.iat[0, 1])
+print(df.iat[1, 2])
+print(df.iat[3, 3])
+print(df.iat[-1, -1])
+
+print(df["A"])
+print(df.A)
+#print(df["A":"D"])
+
+print(df[0:1])
+print(df[:4])
+print(df[2:3])
