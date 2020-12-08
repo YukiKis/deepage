@@ -30,3 +30,16 @@ print(c)
 print(c.ravel())
 print(c.ravel(order="K"))
 print(c.T.ravel(order="K"))
+
+a = np.random.randint(10, size=(1000, 1000))
+
+import time
+time1 = time.time()
+b = a.flatten()
+time1 = time.time() - time1
+time2 = time.time()
+c = a.ravel()
+time2 = time.time() - time2
+a[0, 20] = 213
+print(a[20])
+print(c[20])
