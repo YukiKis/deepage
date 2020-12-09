@@ -30,3 +30,4 @@ print(np.median(a, axis=0, keepdims=True))
 print(np.median(a, axis=1, keepdims=False))
 print(np.median(a, axis=1, keepdims=False))
 print(np.median(a, axis=(0, 2), keepdims=True))
+
