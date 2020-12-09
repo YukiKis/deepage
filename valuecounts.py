@@ -27,4 +27,4 @@ df = pd.DataFrame({
         "B": [1, 1, 2, 2, 1, 1, 1]}
 )
 print(df.apply(pd.value_counts))
-print(df.value_counts())
+#print(df.value_counts())
